@@ -1,0 +1,80 @@
+body{
+  margin:0px;
+  padding:0px;
+  text-align:center;
+  background-color:#2f3f60;
+}
+
+#TITLE_NAME{
+  font-size:50px;
+  margin:0px;
+  text-align:center;
+}
+
+#reset_button{
+  margin:0 auto;
+  font-size:75px;
+  background-color: blue;
+  border:5px solid black;
+  margin-top:0px;
+}
+
+#stand,#hit{
+  margin:0px;
+  padding:0px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:3em;
+  border:5px solid black;
+  width:12%;
+}
+
+#stand{
+  background-color:red;
+}
+#hit{
+  background-color:green;
+}
+
+.player_label,.dealer_label{
+  font-size:50px;
+  display:flex;
+  margin-left:5%;
+  margin-top:1em;
+  margin-bottom:-1.6em;
+}
+
+
+.dealer_cards{
+  display:flex;
+  justify-content:center;
+}
+
+.player_cards{
+  display:flex;
+  justify-content:center;
+}
+
+.dealer_cards > * {
+  margin:0px;
+  margin-right: 100px;
+  font-size:100px;
+}
+
+.player_cards > * {
+  margin:0px;
+  margin-right: 100px;
+  font-size:100px;
+}
+
+#player_card1,#dealer_card1{
+  margin-left:50px;
+}
+
+#isrunning{
+  font-size:4em;
+  margin:0px;
+  margin-bottom:25px;
+}
