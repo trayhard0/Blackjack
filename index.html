@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Blackjack</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 id="TITLE_NAME">Blackjack</h1>
+
+  <div class="dealer_label">
+    Dealer:
+  </div>
+  
+  <div class="dealer_cards">
+    <h4 id="dealer_card1">-</h4> 
+    <h4 id="dealer_card2">-</h4> 
+  </div>
+
+  <button id="hit">Hit</button>
+  <button id="stand">Stand</button>
+
+  <div class="player_label">
+    Player:
+  </div>
+  
+  <div class="player_cards">
+    <h4 id="player_card1">player card1</h4>
+    <h4 id="player_card2">player card2</h4>
+  </div>
+  <h3 id="isrunning">...</h3>
+  <button id="reset_button" style="display: none;">Reset</button>
+
+  <script type="module" src="script.js"></script>
+  <script src="deck.js"></script>
+
+</body>
+
+</html>
